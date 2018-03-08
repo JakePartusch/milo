@@ -57,7 +57,7 @@ const styles = theme => ({
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       width: "60px",
-      height: "60px"
+      height: "65px"
     },
     "@media (hover: hover)": {
       "&:hover": {
