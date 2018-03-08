@@ -2,21 +2,21 @@ const colors = require("../../src/styles/colors");
 
 module.exports = {
   pathPrefix: "",
-  appName: "PersonalBlog",
-  siteTitle: "PersonalBlog - a blog GatsbyJs starter",
-  homeTitle: "Personal blog",
-  siteUrl: "https://silly-mcclintock-36e6bf.netlify.com",
+  appName: "Milo",
+  siteTitle: "Milo",
+  homeTitle: "Milo",
+  siteUrl: "https://cocky-raman-650116.netlify.com/",
   siteImage: "preview.jpg",
   siteLanguage: "en",
-  siteDescription: "PersonalBlog is a GatsbyJs starter.",
+  siteDescription: "Milo",
   // author
-  authorName: "greg lobinski",
+  authorName: "Milo",
   // info
-  infoTitle: "greg lobinski",
-  infoTitleNote: "personal blog",
+  infoTitle: "Milo",
+  infoTitleNote: "",
   // manifest.json
-  manifestName: "PersonalBlog - Gatsby starter",
-  manifestShortName: "PersonalBlog",
+  manifestName: "Milo",
+  manifestShortName: "Milo",
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.bg,
   manifestThemeColor: colors.bg,
