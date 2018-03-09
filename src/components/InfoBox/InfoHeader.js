@@ -27,7 +27,7 @@ const styles = theme => ({
       position: "absolute",
       top: "10px",
       left: "50%",
-      marginLeft: "-30px",
+      marginLeft: "-45px",
       transition: "all .5s",
       transitionTimingFunction: "ease",
       ".navigator-in-transition-from.navigator-is-opened &": {
@@ -42,12 +42,12 @@ const styles = theme => ({
   avatar: {
     width: "36px",
     height: "36px",
-    borderRadius: "65% 75%",
     border: "1px solid #ddd",
     transition: "all .3s",
     transitionTimingFunction: "ease",
     display: "inline-block",
     overflow: "hidden",
+    borderRadius: "65% 65%",
     "& img": {
       maxWidth: "100%"
     },
@@ -56,12 +56,12 @@ const styles = theme => ({
       height: "44px"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
-      width: "60px",
-      height: "65px"
+      width: "90px",
+      height: "90px"
     },
     "@media (hover: hover)": {
       "&:hover": {
-        borderRadius: "75% 65%"
+        borderRadius: "95% 95%"
       }
     }
   },
@@ -82,21 +82,21 @@ const styles = theme => ({
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       fontSize: `${theme.info.fonts.boxTitleSizeL}em`,
       position: "absolute",
-      top: "85px",
+      top: "110px",
       textAlign: "center",
       left: "50%",
       transform: "translate(-50%)",
       transition: "all .5s",
       ".is-aside.open &": {
         left: "60%",
-        top: `${1.9 - theme.info.fonts.boxTitleSizeL}em`,
+        top: `${2.7 - theme.info.fonts.boxTitleSizeL}em`,
         textAlign: "left"
       }
     }
   },
   expand: {
     position: "absolute",
-    top: "30px",
+    top: "1em",
     right: "-25px",
     display: "none",
     ".is-aside.open &": {

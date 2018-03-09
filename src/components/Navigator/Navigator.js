@@ -47,7 +47,7 @@ const styles = theme => ({
         },
         "&.open": {
           bottom: 0,
-          height: `calc(100% - 100px)`
+          height: `calc(100% - 110px)`
         },
         "&::after": {
           content: `""`,

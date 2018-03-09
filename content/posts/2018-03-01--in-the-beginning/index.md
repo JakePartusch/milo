@@ -1,8 +1,8 @@
 ---
-title: Two things are infinite the universe and human stupidity
-subTitle: And I'm not sure about the universe.
+title: In the beginning
+subTitle: It was March 1st 2018.
 category: "sayings"
-cover: photo-1490474418585-ba9bad8fd0ea-cover.jpg
+cover: IMG_20180301_163741.jpg
 ---
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
@@ -19,6 +19,6 @@ Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis met
 
 Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
 
-![unsplash.com](./photo-1490474418585-ba9bad8fd0ea.jpg)
+![unsplash.com](./IMG_20180301_163741.jpg)
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.

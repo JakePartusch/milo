@@ -24,13 +24,14 @@ const styles = theme => ({
     justifyContent: "flex-start",
     flexDirection: "row",
     padding: ".7em 1em .7em 1em",
+    outline: "1px solid rgba(0,0,0,0.15)",
+    marginTop: "10px",
     color: theme.navigator.colors.postsListItemLink,
     "@media (hover: hover)": {
       "&:hover": {
         color: theme.navigator.colors.postsListItemLinkHover,
-        "& .pointer": {
-          borderRadius: "65% 75%"
-        }
+        transform: "translateY(-4px)",
+        outline: "1px solid rgba(0,0,0,0.15)"
       }
     }
   },
@@ -38,7 +39,6 @@ const styles = theme => ({
     position: "relative",
     flexShrink: 0,
     overflow: "hidden",
-    borderRadius: "75% 65%",
     width: "60px",
     height: "60px",
     margin: "0",
@@ -54,8 +54,8 @@ const styles = theme => ({
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       marginRight: ".8em",
-      width: "90px",
-      height: "90px",
+      width: "120px",
+      height: "120px",
       transition: "all .3s",
       transitionTimingFunction: "ease",
       ".moving-featured &, .is-aside &": {
