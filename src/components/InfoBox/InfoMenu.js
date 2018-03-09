@@ -38,7 +38,7 @@ const InfoMenu = props => {
             className={classes.link}
             data-shape="closed"
           >
-            {frontmatter.menuTitle ? frontmatter.menuTitle : frontmatter.title}
+            {frontmatter.title}
           </Link>
         );
       })}

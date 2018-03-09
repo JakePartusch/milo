@@ -100,7 +100,7 @@ class TopMenu extends React.Component {
                               this.handleClose();
                             }}
                           >
-                            {frontmatter.menuTitle ? frontmatter.menuTitle : frontmatter.title}
+                            {frontmatter.title}
                           </MenuItem>
                         </a>
                       );

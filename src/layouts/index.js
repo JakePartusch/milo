@@ -171,7 +171,6 @@ export const guery = graphql`
           }
           frontmatter {
             title
-            menuTitle
           }
         }
       }
