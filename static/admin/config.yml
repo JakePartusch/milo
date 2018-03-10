@@ -2,8 +2,6 @@ backend:
   name: github
   repo: JakePartusch/milo
 
-publish_mode: editorial_workflow
-
 media_folder: content/images
 public_folder: /images/uploads
 
@@ -11,12 +9,11 @@ collections:
   - name: blog
     label: "Blog Post"
     folder: "content/posts"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}--{{slug}}"
     create: true
-    format: frontmatter
     fields:
-      - { name: category, label: Category, widget: "select" }
+      - { name: category, label: Category}
       - { name: title, label: Title }
       - { name: subTitle, label: subTitle }
-      - { name: cover, label: Cover, widget: "image", required: false, default: "avatars/fallback.png" }
+      - { name: cover, label: Cover, widget: "image"}
       - { name: body, label: "Blog Post Content", widget: "markdown"}
