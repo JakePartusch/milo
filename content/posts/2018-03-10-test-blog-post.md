@@ -1,9 +1,8 @@
 ---
-category: testing
-title: Test Blog Post
-subTitle: Test subtitle
-slug: test-blog-post
-date: 2018-01-11T17:56:04.000Z
-cover: IMG_20180301_163741.jpg
+category: baby
+title: 'Week #1'
+subTitle: The Start of Our Family
+cover: /mvimg_20180308_171402_2.jpg
+slug: week-one
 ---
-# This is some test content
+The first week went faster than we could've imagined. We love having Milo as part of our family!
