@@ -37,11 +37,6 @@ exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadCompon
       id="server-side-jss"
       key="server-side-jss"
       dangerouslySetInnerHTML={{ __html: minifyCssString(sheetsRegistry.toString()) }}
-    />,
-    <link
-      key={`netlify-cms-load`}
-      href="https://identity.netlify.com/v1/netlify-identity-widget.js"
-      as="script"
     />
   ]);
 };

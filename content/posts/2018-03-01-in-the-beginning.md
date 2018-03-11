@@ -2,6 +2,8 @@
 title: In the beginning
 subTitle: It was March 1st 2018.
 category: "sayings"
+slug: in-the-beginning
+date: 2018-01-11T17:56:04.000Z
 cover: IMG_20180301_163741.jpg
 ---
 

@@ -2,8 +2,8 @@ backend:
   name: github
   repo: JakePartusch/milo
 
-media_folder: content/images
-public_folder: /images/uploads
+media_folder: content/posts
+public_folder: /
 
 collections:
   - name: blog
@@ -16,4 +16,5 @@ collections:
       - { name: title, label: Title }
       - { name: subTitle, label: subTitle }
       - { name: cover, label: Cover, widget: "image"}
+      - { name: slug, label: Slug }
       - { name: body, label: "Blog Post Content", widget: "markdown"}

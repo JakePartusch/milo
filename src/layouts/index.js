@@ -132,7 +132,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(injectSheet(globals)
 export const guery = graphql`
   query LayoutQuery {
     posts: allMarkdownRemark(
-      filter: { id: { regex: "//posts//" } }
+      filter: { fields: { type: { eq: "post" } } }
       sort: { fields: [fields___prefix], order: DESC }
     ) {
       edges {
@@ -146,6 +146,7 @@ export const guery = graphql`
             title
             subTitle
             category
+            date
             cover {
               children {
                 ... on ImageSharp {

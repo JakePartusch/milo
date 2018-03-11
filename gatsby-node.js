@@ -12,6 +12,8 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     const slug = createFilePath({ node, getNode, basePath: `pages` });
     const separtorIndex = ~slug.indexOf("--") ? slug.indexOf("--") : 0;
     const shortSlugStart = separtorIndex ? separtorIndex + 2 : 0;
+    const isPost = /posts/.test(node.id);
+    createNodeField({ node, name: 'type', value: isPost ? 'post': 'page' });
     createNodeField({
       node,
       name: `slug`,
