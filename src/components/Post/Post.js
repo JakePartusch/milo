@@ -13,7 +13,6 @@ const Post = props => {
   const subTitle = ((post || {}).frontmatter || {}).subTitle;
   const date = ((post || {}).frontmatter || {}).date;
   const html = (post || {}).html;
-  console.log(frontmatter);
   return (
     <Article>
       <PostHeader title={title} subTitle={subTitle} date={date} />

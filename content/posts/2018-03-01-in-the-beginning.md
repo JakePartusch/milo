@@ -2,6 +2,7 @@
 category: sayings
 title: In the beginning
 subTitle: It was March 1st 2018.
+date: 2018-03-01
 cover: IMG_20180301_163741.jpg
 slug: in-the-beginning
 ---

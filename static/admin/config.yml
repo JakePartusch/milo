@@ -3,7 +3,7 @@ backend:
   repo: JakePartusch/milo
 
 media_folder: content/posts
-public_folder: /
+public_folder: 
 
 collections:
   - name: blog
@@ -16,5 +16,6 @@ collections:
       - { name: title, label: Title }
       - { name: subTitle, label: subTitle }
       - { name: cover, label: Cover, widget: "image"}
+      - { name: date, label: Date, widget: date }
       - { name: slug, label: Slug }
       - { name: body, label: "Blog Post Content", widget: "markdown"}
