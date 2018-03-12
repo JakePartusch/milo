@@ -32,10 +32,6 @@ const styles = theme => ({
       transitionTimingFunction: "ease",
       ".navigator-in-transition-from.navigator-is-opened &": {
         left: "50%"
-      },
-      ".is-aside.open &": {
-        left: "8%",
-        top: "0"
       }
     }
   },
@@ -86,12 +82,7 @@ const styles = theme => ({
       textAlign: "center",
       left: "50%",
       transform: "translate(-50%)",
-      transition: "all .5s",
-      ".is-aside.open &": {
-        left: "60%",
-        top: `${2.7 - theme.info.fonts.boxTitleSizeL}em`,
-        textAlign: "left"
-      }
+      transition: "all .5s"
     }
   },
   expand: {
@@ -119,14 +110,6 @@ const InfoHeader = props => {
         {config.infoTitle.replace(/ /g, "\u00a0")}
         <small>{config.infoTitleNote}</small>
       </h1>
-      <IconButton
-        aria-label="Expand the box"
-        className={classes.expand}
-        onClick={expandOnClick}
-        title="Expand the box"
-      >
-        <ExpandMoreIcon />
-      </IconButton>
     </header>
   );
 };

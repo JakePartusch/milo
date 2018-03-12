@@ -36,28 +36,7 @@ const styles = theme => ({
         top: 0
       },
       "&.is-aside": {
-        transition: "none, bottom 0.5s",
-        left: 0,
-        width: `${theme.info.sizes.width - 1}px`,
-        zIndex: 1,
-        top: "auto",
-        "&.closed": {
-          bottom: `calc(-100% + 100px + ${theme.navigator.sizes.closedHeight}px)`,
-          height: `calc(100% - 100px)`
-        },
-        "&.open": {
-          bottom: 0,
-          height: `calc(100% - 110px)`
-        },
-        "&::after": {
-          content: `""`,
-          position: "absolute",
-          top: 0,
-          left: theme.base.sizes.linesMargin,
-          right: theme.base.sizes.linesMargin,
-          height: 0,
-          borderTop: `1px solid ${theme.base.colors.lines}`
-        }
+        display: "none"
       },
       "&.moving-aside": {
         transition: "left 0.9s",
