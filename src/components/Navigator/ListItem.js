@@ -43,9 +43,6 @@ const styles = theme => ({
     position: "relative",
     flexShrink: 0,
     overflow: "hidden",
-    maxWidth: "60px",
-    maxHeight: "60px",
-    marginLeft: "auto",
     transition: "all .5s",
     "& img": {
       maxWidth: "100%",
@@ -58,12 +55,10 @@ const styles = theme => ({
       }
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
-      maxWidth: "80px",
-      maxHeight: "80px"
+      maxWidth: "180px",
+      maxHeight: "240px"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
-      maxWidth: "180px",
-      maxHeight: "240px",
       transition: "all .3s",
       transitionTimingFunction: "ease",
       ".moving-featured &, .is-aside &": {
