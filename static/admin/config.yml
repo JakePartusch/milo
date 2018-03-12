@@ -3,7 +3,6 @@ backend:
   repo: JakePartusch/milo
 
 media_folder: content/posts
-public_folder: 
 
 collections:
   - name: blog
