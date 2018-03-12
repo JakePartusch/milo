@@ -43,7 +43,8 @@ const styles = theme => ({
       ".moving-featured &, .is-aside &": {
         display: "block"
       },
-      display: "flex"
+      display: "flex",
+      flexWrap: "wrap"
     }
   }
 });
