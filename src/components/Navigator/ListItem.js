@@ -9,7 +9,7 @@ const styles = theme => ({
     margin: "0 0 .7em 0",
     transition: "height 1s",
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
-      margin: "0 0 1.5rem 0"
+      margin: "1rem"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       ".moving-featured &, .is-aside &": {
@@ -23,53 +23,63 @@ const styles = theme => ({
     alignItems: "center",
     justifyContent: "flex-start",
     flexDirection: "row",
-    padding: ".7em 1em .7em 1em",
-    outline: "1px solid rgba(0,0,0,0.15)",
     marginTop: "10px",
     color: theme.navigator.colors.postsListItemLink,
     "@media (hover: hover)": {
       "&:hover": {
         color: theme.navigator.colors.postsListItemLinkHover,
         transform: "translateY(-4px)",
-        outline: "1px solid rgba(0,0,0,0.15)"
       }
+    },
+    [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
+      ".moving-featured &, .is-aside &": {
+        display: "flex"
+      },
+      display: "block",
+      backgroundColor: "lightblue"
     }
   },
   listItemPointer: {
     position: "relative",
     flexShrink: 0,
     overflow: "hidden",
-    width: "60px",
-    height: "60px",
-    margin: "0",
+    maxWidth: "60px",
+    maxHeight: "60px",
+    marginLeft: "auto",
     transition: "all .5s",
     "& img": {
-      width: "100%",
-      height: "100%"
+      maxWidth: "100%",
+      maxHeight: "100%"
+    },
+    "@media (hover: hover)": {
+      "&:hover": {
+        opacity: 0.2,
+        color: "lightblue"
+      }
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
-      marginRight: ".5em",
-      width: "80px",
-      height: "80px"
+      maxWidth: "80px",
+      maxHeight: "80px"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
-      marginRight: ".8em",
-      width: "120px",
-      height: "120px",
+      maxWidth: "180px",
+      maxHeight: "240px",
       transition: "all .3s",
       transitionTimingFunction: "ease",
       ".moving-featured &, .is-aside &": {
-        width: "30px",
-        height: "30px"
+        maxWidth: "30px",
+        maxHeight: "30px",
+        margin: "0"
       }
     }
   },
   listItemText: {
-    margin: "0 0 0 1.5em",
-    flexGrow: 1,
-    display: "flex",
-    flexDirection: "column",
-    width: "100%",
+    position: "absolute",
+    top: "90px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    left: 0,
+    right: 0,
     "& h1": {
       lineHeight: 1.15,
       fontWeight: 600,
@@ -85,12 +95,15 @@ const styles = theme => ({
           theme.navigator.sizes.fontIncraseForL}em`,
         ".moving-featured &, .is-aside &": {
           fontSize: "1em",
-          fontWeight: 400
-        }
+          fontWeight: 400,
+          margin: "0 0 0 1.5em"
+        },
+        textAlign: "center"
       }
     },
     "& h2": {
       lineHeight: 1.2,
+      textAlign: "center",
       display: "block",
       fontSize: `${theme.navigator.sizes.postsListItemH2Font}em`,
       margin: ".3em 0 0 0",
@@ -116,7 +129,8 @@ const styles = theme => ({
 
 class ListItem extends React.Component {
   state = {
-    hidden: false
+    hidden: false,
+    hideText: true
   };
 
   componentDidUpdate(prevProps, prevState) {
@@ -134,14 +148,22 @@ class ListItem extends React.Component {
     }
   }
 
+  myDate = (dateString) => {
+    const dateObj = new Date(dateString);
+    const dateToShow = dateObj.toLocaleDateString("en-US");
+
+    return dateToShow;
+  };
+
   render() {
     const { classes, post, linkOnClick } = this.props;
-
     return (
       <li
         className={`${classes.listItem} ${post.node.frontmatter.category}`}
         style={{ display: `${this.state.hidden ? "none" : "block"}` }}
         key={post.node.fields.slug}
+        onMouseOver={() => this.setState({hideText: false})}
+        onMouseOut={() => this.setState({hideText: true})}
       >
         <Link
           activeClassName="active"
@@ -149,7 +171,7 @@ class ListItem extends React.Component {
           to={post.node.fields.slug}
           onClick={linkOnClick}
         >
-          <div className={`${classes.listItemPointer} pointer`}>
+          <div className={`${classes.listItemPointer} pointer`} style={{ opacity: `${this.state.hideText ? "1" : "0.1"}`}}>
             <LazyLoad height={60} overflow={true} throttle={300} once={true} offset={100}>
               <picture>
                 <source
@@ -162,9 +184,9 @@ class ListItem extends React.Component {
             </LazyLoad>
             {/*<Img sizes={post.node.frontmatter.cover.children[0].sizes} />*/}
           </div>
-          <div className={classes.listItemText}>
+          <div className={classes.listItemText} style={{ display: `${this.state.hideText ? "none" : "block"}` }} >
             <h1>{post.node.frontmatter.title}</h1>
-            {post.node.frontmatter.subTitle && <h2>{post.node.frontmatter.subTitle}</h2>}
+            <h2>{this.myDate(post.node.frontmatter.date)}</h2>
           </div>
         </Link>
       </li>

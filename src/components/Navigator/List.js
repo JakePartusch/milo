@@ -38,6 +38,12 @@ const styles = theme => ({
     padding: 0,
     ".is-aside.closed &, .moving-featured.closed &": {
       display: "none"
+    },
+    [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
+      ".moving-featured &, .is-aside &": {
+        display: "block"
+      },
+      display: "flex"
     }
   }
 });
