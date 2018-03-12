@@ -133,7 +133,7 @@ export const guery = graphql`
   query LayoutQuery {
     posts: allMarkdownRemark(
       filter: { fields: { type: { eq: "post" } } }
-      sort: { fields: [fields___prefix], order: DESC }
+      sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
