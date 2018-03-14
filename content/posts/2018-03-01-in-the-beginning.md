@@ -4,7 +4,7 @@ title: It's my Birthday
 subTitle: 'I''ll cry if I want to. '
 cover: IMG_20180301_163741.jpg
 date: 2018-03-01T06:00:00.000Z
-slug: in-the-beginning
+slug: Day 1
 ---
 # Hello World!
 
