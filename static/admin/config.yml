@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: JakePartusch/milo
+  name: git-gateway
 
 media_folder: content/posts
 public_folder: ../posts
