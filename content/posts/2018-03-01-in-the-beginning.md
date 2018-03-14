@@ -1,9 +1,9 @@
 ---
 category: baby
-title: In the beginning
-subTitle: It was March 1st 2018.
+title: It's my Birthday
+subTitle: 'I''ll cry if I want to. '
 cover: IMG_20180301_163741.jpg
-date: 2018-03-01T00:00:00-06:00
+date: 2018-03-01T06:00:00.000Z
 slug: in-the-beginning
 ---
 # Hello World!
