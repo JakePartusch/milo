@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
 
-media_folder: content/posts
-public_folder: ../posts
+media_folder: content/posts/images
+public_folder: images
 collections:
   - name: blog
     label: "Blog Post"
@@ -15,5 +15,6 @@ collections:
       - { name: subTitle, label: subTitle }
       - { name: cover, label: Cover, widget: "image"}
       - { name: date, label: Date, widget: date }
+      - { name: day, label: Day }
       - { name: slug, label: Slug }
       - { name: body, label: "Blog Post Content", widget: "markdown"}
