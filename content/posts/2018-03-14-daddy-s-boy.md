@@ -2,8 +2,8 @@
 category: March
 title: Daddy's Boy
 subTitle: Hospital Snuggles
-cover: /../posts/img_20180302_184936_2.jpg
+cover: ./img_20180302_184936_2.jpg
 date: 2018-03-02T14:04:07-06:00
 slug: Daddy's_Boy
 ---
-![](/../posts/img_20180302_184936_2.jpg)
+![](./img_20180302_184936_2.jpg)
