@@ -141,12 +141,6 @@ export const guery = graphql`
           fields {
             slug
             prefix
-          }
-          frontmatter {
-            title
-            subTitle
-            category
-            date
             cover {
               children {
                 ... on ImageSharp {
@@ -156,6 +150,12 @@ export const guery = graphql`
                 }
               }
             }
+          }
+          frontmatter {
+            title
+            subTitle
+            category
+            date
           }
         }
       }

@@ -2,11 +2,11 @@
 category: March
 title: Sleeping Hipster
 subTitle: zzzz
-cover: images/mvimg_20180309_145347.jpg
+cover: /images/mvimg_20180309_145347.jpg
 date: 2018-03-10T02:28:17.000Z
 day: '9'
 slug: Day 9
 ---
 # Little sleeping baby :)
 
-![milo](images/mvimg_20180309_145347.jpg)
+![milo](/images/mvimg_20180309_145347.jpg)

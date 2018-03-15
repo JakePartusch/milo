@@ -9,6 +9,14 @@ const { store } = require(`./node_modules/gatsby/dist/redux`);
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
   if (node.internal.type === `MarkdownRemark`) {
+    if(node.frontmatter.cover && node.frontmatter.cover[0] === '/') {
+      console.log(node.frontmatter.cover);
+      createNodeField({
+        node,
+        name: `cover`,
+        value: node.frontmatter.cover.slice(1)
+      });
+    }
     const slug = createFilePath({ node, getNode, basePath: `pages` });
     const separtorIndex = ~slug.indexOf("--") ? slug.indexOf("--") : 0;
     const shortSlugStart = separtorIndex ? separtorIndex + 2 : 0;

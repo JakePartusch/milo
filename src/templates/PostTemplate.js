@@ -37,12 +37,6 @@ export const postQuery = graphql`
       fields {
         slug
         prefix
-      }
-      frontmatter {
-        title
-        subTitle
-        date
-        slug
         cover {
           childImageSharp {
             resize(width: 300) {
@@ -50,6 +44,12 @@ export const postQuery = graphql`
             }
           }
         }
+      }
+      frontmatter {
+        title
+        subTitle
+        date
+        slug
       }
     }
     author: markdownRemark(id: { regex: "/author/" }) {

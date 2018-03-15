@@ -170,13 +170,12 @@ class ListItem extends React.Component {
               <picture>
                 <source
                   type="image/webp"
-                  srcSet={post.node.frontmatter.cover.children[0].resolutions.srcSetWebp}
+                  srcSet={post.node.fields.cover.children[0].resolutions.srcSetWebp}
                 />
-                <source srcSet={post.node.frontmatter.cover.children[0].resolutions.srcSet} />
-                <img src={post.node.frontmatter.cover.children[0].resolutions.src} alt="" />
+                <source srcSet={post.node.fields.cover.children[0].resolutions.srcSet} />
+                <img src={post.node.fields.cover.children[0].resolutions.src} alt="" />
               </picture>
             </LazyLoad>
-            {/*<Img sizes={post.node.frontmatter.cover.children[0].sizes} />*/}
           </div>
           <div className={classes.listItemText} style={{ display: `${this.state.hideText ? "none" : "block"}` }} >
             <h1>{post.node.frontmatter.title}</h1>
