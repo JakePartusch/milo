@@ -9,7 +9,7 @@ const styles = theme => ({
     margin: "0 0 .7em 0",
     transition: "height 1s",
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
-      margin: "1rem"
+      margin: "0.1rem"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       ".moving-featured &, .is-aside &": {
@@ -23,7 +23,6 @@ const styles = theme => ({
     alignItems: "center",
     justifyContent: "flex-start",
     flexDirection: "row",
-    marginTop: "10px",
     color: theme.navigator.colors.postsListItemLink,
     "@media (hover: hover)": {
       "&:hover": {
