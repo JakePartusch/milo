@@ -47,15 +47,15 @@ const styles = theme => ({
       maxWidth: "100%",
       maxHeight: "100%"
     },
-    "@media (hover: hover)": {
-      "&:hover": {
-        opacity: 0.2,
-        color: "lightblue"
-      }
-    },
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
       maxWidth: "180px",
-      maxHeight: "240px"
+      maxHeight: "240px",
+      "@media (hover: hover)": {
+        "&:hover": {
+          opacity: 0.2,
+          color: "lightblue"
+        }
+      }
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       transition: "all .3s",
@@ -118,6 +118,20 @@ const styles = theme => ({
         margin: "0 0 0 .5em"
       }
     }
+  },
+  dim: {
+    [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
+      opacity: 0.1
+    }
+  },
+  hideText: {
+    display: "none"
+  },
+  showText: {
+    display: "block",
+    [`@media (max-width: ${theme.mediaQueryTresholds.M}px)`]: {
+      display: "none"
+    }
   }
 });
 
@@ -165,7 +179,7 @@ class ListItem extends React.Component {
           to={post.node.fields.slug}
           onClick={linkOnClick}
         >
-          <div className={`${classes.listItemPointer} pointer`} style={{ opacity: `${this.state.hideText ? "1" : "0.1"}`}}>
+          <div className={`${classes.listItemPointer} pointer ${!this.state.hideText ? classes.dim : ''}`}>
             <LazyLoad height={60} overflow={true} throttle={300} once={true} offset={100}>
               <picture>
                 <source
@@ -177,7 +191,7 @@ class ListItem extends React.Component {
               </picture>
             </LazyLoad>
           </div>
-          <div className={classes.listItemText} style={{ display: `${this.state.hideText ? "none" : "block"}` }} >
+          <div className={`${classes.listItemText} ${this.state.hideText ? classes.hideText : classes.showText}`} >
             <h1>{post.node.frontmatter.title}</h1>
             <h2>{this.myDate(post.node.frontmatter.date)}</h2>
           </div>
