@@ -1,7 +1,7 @@
 ---
 category: March
-title: It's my Birthday
-subTitle: 'I''ll cry if I want to. '
+title: Happy Birthday!
+subTitle: 'It''s my Birthday, I can cry if I want to. '
 cover: images/IMG_20180301_163741.jpg
 date: 2018-03-01T06:00:00.000Z
 day: '1'
