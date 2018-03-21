@@ -7,6 +7,8 @@ date: 2018-03-01T06:00:00.000Z
 day: '1'
 slug: Day 1
 ---
+![](/images/img_20180301_094920.jpg)
+
 # Hello World!
 
 > Weight: 9 lbs. 14 oz.
