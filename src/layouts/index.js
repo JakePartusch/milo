@@ -15,6 +15,7 @@ import Seo from "../components/common/Seo";
 import Navigator from "../components/Navigator/";
 import ActionsBar from "../components/ActionsBar/";
 import InfoBar from "../components/InfoBar/";
+import netlifyIdentity from "netlify-identity-widget";
 
 import { isWideScreen, timeoutThrottlerHandler } from "../utils/helpers";
 
@@ -35,11 +36,27 @@ class Layout extends React.Component {
   timeouts = {};
   categories = [];
 
+  state = {
+   authenticated: false
+  };
+
   componentDidMount() {
     this.props.setIsWideScreen(isWideScreen());
     if (typeof window !== "undefined") {
       window.addEventListener("resize", this.resizeThrottler, false);
     }
+    netlifyIdentity.init({
+      container: "#netlify-identity-modal" // defaults to document.body,
+    });
+    netlifyIdentity.open(); // open the modal
+
+    const currentUser = netlifyIdentity.currentUser();
+    if(currentUser) {
+      this.setState({authenticated: true});
+    }
+
+    netlifyIdentity.on("init", user => console.log(user));
+    netlifyIdentity.on("login", user => this.setState({authenticated: true}));
   }
 
   componentWillMount() {
@@ -77,7 +94,9 @@ class Layout extends React.Component {
 
   render() {
     const { children, data } = this.props;
-
+    if(!this.state.authenticated) {
+      return <div id="netlify-identity-modal"/>
+    }
     // TODO: dynamic management of tabindexes for keybord navigation
     return (
       <MuiThemeProvider theme={theme}>
