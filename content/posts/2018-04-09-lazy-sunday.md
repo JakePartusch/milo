@@ -1,9 +1,9 @@
 ---
 category: April
-title: Lazy Sunday
+title: Easy Like Sunday Morning...
 subTitle: '   '
 cover: /images/img_20180408_153236.jpg
-date: 2018-04-08T11:52:12-05:00
+date: 2018-04-08T16:52:12.000Z
 day: Day 39
 slug: Day 39
 ---
