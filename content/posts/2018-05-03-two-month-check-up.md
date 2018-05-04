@@ -1,9 +1,9 @@
 ---
 category: May
 title: Two Month Check Up
-subTitle: 'Milo had to get a few shots at his 2 month well visit.  '
+subTitle: ' '
 cover: /images/img_20180502_081420.jpg
-date: 2018-05-02T19:36:22-05:00
+date: 2018-05-03T00:36:22.000Z
 day: Day 63
 slug: Day 63
 ---
