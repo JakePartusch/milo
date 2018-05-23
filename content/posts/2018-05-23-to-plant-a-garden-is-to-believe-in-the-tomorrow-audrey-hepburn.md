@@ -1,6 +1,6 @@
 ---
 category: May
-title: '"To plant a garden is to believe in the tomorrow."  - Audrey Hepburn'
+title: '"To plant a garden is to believe in tomorrow."  - Audrey Hepburn'
 subTitle: >-
   Another night working in the backyard.  Mama worked in the garden, while Daddy
   worked on prepping the house for our new deck.  Milo was happy as usual
