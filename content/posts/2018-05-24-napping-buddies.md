@@ -3,8 +3,8 @@ category: May
 title: Napping Buddies
 subTitle: ' '
 cover: /images/img_20180523_113142.jpg
-date: 2018-05-23T19:32:04-05:00
+date: 2018-05-24T00:32:04.000Z
 day: Day 84
 slug: Day 84
 ---
-![](/images/img_20180523_113142.jpg)
+![null](/images/img_20180523_113142.jpg)
