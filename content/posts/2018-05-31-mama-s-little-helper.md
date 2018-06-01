@@ -12,8 +12,8 @@ slug: Day 91
 ---
 ![](/images/img_20180530_181438.jpg)
 
+Couldn't have made it through the school day without photos like these! Oh how I missed that sweet face and chunky thighs! 
+
 ![](/images/img_1522.jpg)
 
 ![](/images/img_1521_01.jpg)
-
-Couldn't have made it through the school day without photos like these! Oh how I missed that sweet face and chunky thighs! 
