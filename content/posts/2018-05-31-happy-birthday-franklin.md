@@ -4,7 +4,7 @@ title: 'Happy Birthday Franklin! '
 subTitle: >-
   A day for celebrating!  Franklin is 2, Milo is 13 weeks, and Mama is home for
   the summer! It's a good day! Thanks for helping us celebrate and being our
-  patient photographer aunt Taylor! Be prepared for photo overload...
+  patient photographer, aunt Taylor! Be prepared for photo overload...
   unfortunately the boys refuse to ever be photogenic at the same time.  
 cover: /images/img_1150.jpg
 date: 2018-06-01T02:01:48.652Z
