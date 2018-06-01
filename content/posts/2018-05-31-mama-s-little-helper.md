@@ -6,7 +6,7 @@ subTitle: >-
   helped by happily playing on the floor and giving mom lots of his famous
   smiles.    
 cover: /images/img_20180530_181438.jpg
-date: 2018-05-30T20:43:38-05:00
+date: 2018-05-31T01:43:38.000Z
 day: Day 91
 slug: Day 91
 ---
@@ -16,4 +16,4 @@ slug: Day 91
 
 ![](/images/img_1521_01.jpg)
 
-Couldn't have made it through the school day without photos like these! Oh how I missed that sweet face! 
+Couldn't have made it through the school day without photos like these! Oh how I missed that sweet face and chunky thighs! 
