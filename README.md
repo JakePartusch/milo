@@ -1,5 +1,7 @@
 # PersonalBlog starter for Gatsby
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JakePartusch/milo.svg)](https://greenkeeper.io/)
+
 [DEMO website](https://gatsby-starter-personal-blog.greglobinski.com/)
 
 More details soon. For now a couple of annotations.
