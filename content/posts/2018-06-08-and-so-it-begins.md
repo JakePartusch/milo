@@ -7,8 +7,8 @@ date: '2018-06-05'
 day: Day 97
 slug: Day 97
 ---
-![](/images/img_20180605_180052.jpg)
+![null](/images/img_20180605_180052.jpg)
 
-![](/images/img_20180605_151151.jpg)
+![null](/images/img_20180605_151151.jpg)
 
-![](/images/img_20180605_112230.jpg)
+![null](/images/img_20180605_112230.jpg)
