@@ -10,8 +10,8 @@ date: '2018-06-08'
 day: Day 99
 slug: Day 99
 ---
-![](/images/img_20180608_192052.jpg)
+![null](/images/img_20180608_192052.jpg)
 
-![](/images/img_20180608_185546.jpg)
+![null](/images/img_20180608_185546.jpg)
 
-![](/images/img_20180608_183556.jpg)
+![null](/images/img_20180608_183556.jpg)
