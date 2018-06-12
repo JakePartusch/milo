@@ -58,6 +58,7 @@ typings/
 .env
 
 .cache/
+.gatsby-static-files
 .DS_Store
 public
 yarn-error.log
