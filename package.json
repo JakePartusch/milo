@@ -11,6 +11,7 @@
     "serve": "gatsby serve",
     "format-output": "prettier src/**/*.{js,jsx}",
     "format": "prettier --write src/**/*.{js,jsx}",
+    "images": "node scripts/images.js",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
     "favIcon16": "sharp -i ./src/images/app-icons/icon.png -o ./static/icons/favicon-16x16.png resize 16",
@@ -48,8 +49,10 @@
     "eslint-plugin-prettier": "^2.5.0",
     "eslint-plugin-react": "^7.6.1",
     "gatsby-plugin-svgr": "^0.2.1",
+    "glob": "^7.1.2",
     "prettier": "^1.10.2",
     "sharp-cli": "^1.6.0",
+    "sharp": "^0.18.2",
     "webpack-bundle-analyzer": "^2.10.0"
   },
   "dependencies": {
