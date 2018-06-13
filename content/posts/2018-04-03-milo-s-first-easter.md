@@ -3,7 +3,7 @@ category: April
 title: Milo's First Easter
 subTitle: One Month Old!
 cover: /images/mvimg_20180401_182545.jpg
-date: 2018-04-02T03:06:53.000Z
+date: '2018-04-01'
 day: Day 32
 slug: Day 32
 ---
