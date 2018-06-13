@@ -3,7 +3,7 @@ category: March
 title: Bright Eyes
 subTitle: "\U0001F604"
 cover: /images/mvimg_20180323_195134.jpg
-date: 2018-03-23T17:27:42.000Z
+date: '2018-03-23'
 day: Day 23
 slug: Day 23
 ---
