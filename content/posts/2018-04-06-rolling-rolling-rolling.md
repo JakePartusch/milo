@@ -5,15 +5,14 @@ subTitle: >-
   It may have been an accident, but Milo surprised mama today and rolled over
   during tummy time.  
 cover: /images/img_20180406_161230.jpg
-date: 2018-04-06T23:51:19.473Z
+date: '2018-04-06'
 day: Day37
 slug: Day 37
 ---
-![](/images/img_20180406_161230.jpg)
+![null](/images/img_20180406_161230.jpg)
 
-![](/images/img_20180406_160211.jpg)
+![null](/images/img_20180406_160211.jpg)
 
-![](/images/img_20180406_162324.jpg)
+![null](/images/img_20180406_162324.jpg)
 
-![](/images/img_20180406_162328.jpg)
-
+![null](/images/img_20180406_162328.jpg)
