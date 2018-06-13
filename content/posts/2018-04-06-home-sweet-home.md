@@ -9,7 +9,7 @@ slug: Day 3
 ---
 ![null](/images/img_20180303_124029.jpg)
 
-![null]()
+![null](/images/dsc09943.jpg)
 
 ![null](/images/img_20180303_133007.jpg)
 
