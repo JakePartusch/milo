@@ -3,7 +3,7 @@ category: March
 title: Happy Birthday!
 subTitle: 'It''s my Birthday, I can cry if I want to. '
 cover: /images/IMG_20180301_163741.jpg
-date: 2018-03-01T06:00:00.000Z
+date: '2018-03-01'
 day: '1'
 slug: Day 1
 ---
