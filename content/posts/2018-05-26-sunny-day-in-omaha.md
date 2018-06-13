@@ -6,7 +6,7 @@ subTitle: >-
   at Infusion Brewery (for dad). Ended our day with lots of smiles, grunts, and
   drool in the AC! 
 cover: /images/img_20180526_193528.jpg
-date: 2018-05-27T00:43:21.578Z
+date: '2018-05-26'
 day: Day 87
 slug: Day 87
 ---
