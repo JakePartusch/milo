@@ -3,7 +3,7 @@ category: April
 title: Dad's the Best
 subTitle: '  '
 cover: /images/img_20180430_135020.jpg
-date: 2018-05-01T00:51:38.000Z
+date: '2018-04-30'
 day: Day 61
 slug: Day 61
 ---
