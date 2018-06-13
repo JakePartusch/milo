@@ -8,7 +8,7 @@ subTitle: >-
   asleep. Also, is it possible to take too many photos of a smiling baby in a
   sunhat? I obviously don't think so :)  
 cover: /images/img_20180522_195308.jpg
-date: 2018-05-22T16:14:10.000Z
+date: '2018-05-22'
 day: Day 83
 slug: Day 83
 ---
