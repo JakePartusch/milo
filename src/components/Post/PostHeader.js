@@ -45,7 +45,7 @@ const PostHeader = props => {
 
   function myDate(dateString) {
     const dateObj = new Date(dateString);
-    const dateToShow = dateObj.toDateString();
+    const dateToShow = dateObj.toUTCString().split(' ').splice(0, 4).join(' ');
 
     return dateToShow;
   }

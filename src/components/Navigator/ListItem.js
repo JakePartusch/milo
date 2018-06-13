@@ -158,7 +158,7 @@ class ListItem extends React.Component {
 
   myDate = (dateString) => {
     const dateObj = new Date(dateString);
-    const dateToShow = dateObj.toLocaleDateString("en-US");
+    const dateToShow = `${dateObj.getUTCMonth() + 1}/${dateObj.getUTCDate()}/${dateObj.getUTCFullYear()}`;
 
     return dateToShow;
   };
