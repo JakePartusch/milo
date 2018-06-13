@@ -7,7 +7,7 @@ subTitle: >-
   patient photographer, aunt Taylor! Be prepared for photo overload...
   unfortunately the boys refuse to ever be photogenic at the same time.  
 cover: /images/img_1150.jpg
-date: 2018-06-01T02:01:48.652Z
+date: '2018-05-31'
 day: Day 92
 slug: '92'
 ---
