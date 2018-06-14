@@ -9,8 +9,8 @@ date: '2018-06-13'
 day: Day 104
 slug: Day 104
 ---
-![](/images/img_1833.jpg)
+![null](/images/img_1833.jpg)
 
-![](/images/img_20180613_131813.jpg)
+![null](/images/img_20180613_131813.jpg)
 
-![](/images/img_20180613_153248.jpg)
+![null](/images/img_20180613_153248.jpg)
