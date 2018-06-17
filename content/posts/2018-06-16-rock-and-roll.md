@@ -9,4 +9,4 @@ date: '2018-06-16'
 day: Day 107
 slug: Day 107
 ---
-![](/images/img_20180616_190643.jpg)
+![null](/images/img_20180616_190643.jpg)
