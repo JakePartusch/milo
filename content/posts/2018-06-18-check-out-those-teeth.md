@@ -7,10 +7,10 @@ date: '2018-06-18'
 day: Day 109
 slug: Day 109
 ---
-![](/images/img_20180618_120245.jpg)
+![null](/images/img_20180618_120245.jpg)
 
-![](/images/img_20180618_155233.jpg)
+![null](/images/img_20180618_155233.jpg)
 
-![](/images/img_20180618_161858.jpg)
+![null](/images/img_20180618_161858.jpg)
 
-![](/images/img_20180618_182750.jpg)
+![null](/images/img_20180618_182750.jpg)
