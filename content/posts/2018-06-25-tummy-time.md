@@ -9,6 +9,6 @@ date: '2018-06-25'
 day: day 116
 slug: Day 116
 ---
-![](/images/mvimg_20180625_202643.jpg)
+![null](/images/mvimg_20180625_202643.jpg)
 
-![](/images/img_20180625_101734.jpg)
+![null](/images/img_20180625_101734.jpg)
