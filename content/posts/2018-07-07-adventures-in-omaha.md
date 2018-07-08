@@ -10,12 +10,12 @@ date: '2018-07-07'
 day: Day 128
 slug: Day 128
 ---
-![](/images/img_20180707_124311.jpg)
+![null](/images/img_20180707_124311.jpg)
 
-![](/images/mvimg_20180707_124100.jpg)
+![null](/images/mvimg_20180707_124100.jpg)
 
-![](/images/img_20180707_130919.jpg)
+![null](/images/img_20180707_130919.jpg)
 
-![](/images/img_20180707_125635.jpg)
+![null](/images/img_20180707_125635.jpg)
 
-![](/images/img_20180707_111950.jpg)
+![null](/images/img_20180707_111950.jpg)
