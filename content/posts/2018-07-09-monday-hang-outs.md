@@ -7,6 +7,10 @@ date: '2018-07-09'
 day: '130'
 slug: '130'
 ---
-![](/images/img_20180709_133626.jpg)
 
-![](/images/img_20180709_133637.jpg)
+
+![null](/images/img_20180709_133626.jpg)
+
+![null](/images/img_20180709_133637.jpg)
+
+![](/images/screenshot_20180709-213340_2.png)
