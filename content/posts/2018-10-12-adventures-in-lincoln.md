@@ -7,8 +7,8 @@ date: '2018-09-02'
 day: ' '
 slug: ' '
 ---
-![](/images/img_20180902_133533.jpg)
+![null](/images/img_20180902_133533.jpg)
 
-![](/images/dsc00420.jpg)
+![null](/images/dsc00420.jpg)
 
-![](/images/dsc00431.jpg)
+![null](/images/dsc00431.jpg)
