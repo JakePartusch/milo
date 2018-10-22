@@ -76,5 +76,4 @@ getFiles(path.resolve('src'))
           })
         })
       })
-      
   });
