@@ -5,7 +5,7 @@ subTitle: >-
   Officially crawling and starting to pull himself up on the crib.  Please
   stop... 
 cover: /images/mvimg_20180903_193012.jpg
-date: '2018-10-03'
+date: '2018-09-03'
 day: ' '
 slug: ' '
 ---
