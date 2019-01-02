@@ -1,5 +1,5 @@
 ---
-category: December
+category: October
 title: Arbor Day Farm
 subTitle: The fall scenes and weather made for the perfect afternoon.
 cover: /images/img_20181020_163517-01.jpeg
