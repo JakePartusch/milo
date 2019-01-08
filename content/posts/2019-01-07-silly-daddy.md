@@ -7,4 +7,4 @@ date: '2018-11-16'
 day: ' '
 slug: ' '
 ---
-![](/images/mvimg_20181116_173334.jpg)
+![null](/images/mvimg_20181116_173334.jpg)
