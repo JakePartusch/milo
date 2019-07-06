@@ -18,6 +18,11 @@ const Header = styled.h1({
   fontSize: "2rem",
   color: "rgb(0,0,0,0.75)",
   textAlign: "center",
+  margin: 0,
+})
+
+const Body = styled.div({
+  margin: "1rem",
 })
 
 const Card = styled.div({
@@ -32,10 +37,10 @@ const Card = styled.div({
 })
 
 const CardImage = styled(Img)(({ selected }) => ({
-  width: 750,
-  height: 600,
+  minWidth: 500,
+  minHeight: 500,
   "@media (max-width:960px)": {
-    width: "100vw",
+    minWidth: "100vw",
   },
   display: selected ? undefined : "none",
 }))
@@ -88,7 +93,7 @@ const Post = ({ pageContext }) => {
         </div>
         <CardContent>
           <Header>{pageContext.post.shortDescription}</Header>
-          <div dangerouslySetInnerHTML={bodyContent} />
+          <Body dangerouslySetInnerHTML={bodyContent} />
         </CardContent>
       </Card>
     </PostContainer>

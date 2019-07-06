@@ -21,7 +21,7 @@ exports.createPages = ({ graphql, actions }) => {
           node {
             id
             coverImages {
-              fluid(maxWidth: 800) {
+              fluid(maxWidth: 800, maxHeight: 800) {
                 src
                 srcSet
                 aspectRatio
