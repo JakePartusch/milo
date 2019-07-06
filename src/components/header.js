@@ -5,6 +5,10 @@ const Avatar = styled.img({
   width: 150,
   height: 150,
   borderRadius: "50%",
+  '@media(max-width:600px)': {
+    width: 100,
+    height: 100
+  }
 })
 
 const Container = styled.div({
@@ -12,7 +16,6 @@ const Container = styled.div({
   alignItems: "center",
   justifyContent: "center",
   margin: "2rem 0",
-  padding: "2rem 0",
   borderBottom: "solid thin rgb(239,239,239)",
 })
 
@@ -22,7 +25,7 @@ const Content = styled.div({
 
 const User = styled.h1({
   fontWeight: 300,
-  marginBottom: 0,
+  margin: 0,
 })
 
 const Tagline = styled.p({
