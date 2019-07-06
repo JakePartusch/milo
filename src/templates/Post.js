@@ -10,7 +10,6 @@ const PostContainer = styled.div({
   maxWidth: 960,
   margin: "auto",
   display: "flex",
-  alignItems: "center",
   height: "100vh",
 })
 
@@ -31,7 +30,7 @@ const Card = styled.div({
   boxShadow:
     "0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12)",
   "@media (max-width:960px)": {
-    flexWrap: "wrap",
+    flexDirection: "column",
     boxShadow: "none",
   },
 })
@@ -47,6 +46,7 @@ const CardImage = styled(Img)(({ selected }) => ({
 
 const CardContent = styled.div({
   padding: "1rem",
+  flex: "1",
 })
 
 const Dots = styled.div({

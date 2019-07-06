@@ -38,7 +38,6 @@ const PostGrid = () => {
       }
     }
   `)
-  console.log(data)
   return (
     <Grid>
       {data.allContentfulPost.edges.map(post => (
