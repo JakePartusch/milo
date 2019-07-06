@@ -54,7 +54,7 @@ const Dots = styled.div({
 const Dot = styled.div(({ selected }) => ({
   width: 8,
   height: 8,
-  margin: " 0 2px",
+  margin: "0 2px",
   borderRadius: "50%",
   backgroundColor: selected ? "#1976d2" : "rgba(0, 0, 0, 0.26)",
 }))
