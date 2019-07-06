@@ -25,7 +25,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#eee`,
         theme_color: `#eee`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/images/mp-logo-512.png`,
       },
     },
