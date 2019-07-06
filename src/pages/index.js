@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostGrid from "../components/PostGrid"
-import Header from "../components/Header"
+import Header from "../components/header"
 
 const IndexPage = () => (
   <Layout>
