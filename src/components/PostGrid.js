@@ -28,7 +28,7 @@ const PostGrid = () => {
           node {
             id
             coverImages {
-              fluid(maxWidth: 600) {
+              fluid(maxWidth: 600, maxHeight: 600) {
                 ...GatsbyContentfulFluid
               }
             }
