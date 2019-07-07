@@ -1,15 +1,6 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import PostGrid from "../components/post-grid"
-import Header from "../components/header"
+import GalleryLayout from "../components/layout"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <Header />
-    <PostGrid />
-  </Layout>
-)
+const IndexPage = () => <GalleryLayout />
 
 export default IndexPage
