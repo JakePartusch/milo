@@ -11,7 +11,9 @@ const PostContainer = styled.div({
   margin: "auto",
   display: "flex",
   minHeight: "100vh",
-  alignItems: "center",
+  "@media(min-width:960px)": {
+    alignItems: "center",
+  },
 })
 
 const Header = styled.h1({
@@ -28,7 +30,7 @@ const PublishDate = styled.div({
 })
 
 const Body = styled.div({
-  margin: "0.5rem",
+  margin: "0.5rem 1rem",
 })
 
 const Card = styled.div({
