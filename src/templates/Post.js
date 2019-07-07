@@ -7,10 +7,11 @@ import { bindKeyboard } from "react-swipeable-views-utils"
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews)
 
 const PostContainer = styled.div({
-  maxWidth: 960,
+  maxWidth: 600,
   margin: "auto",
   display: "flex",
-  height: "100vh",
+  minHeight: "100vh",
+  alignItems: "center",
 })
 
 const Header = styled.h1({
@@ -20,17 +21,24 @@ const Header = styled.h1({
   margin: 0,
 })
 
+const PublishDate = styled.div({
+  color: "rgb(0,0,0,0.75)",
+  textAlign: "center",
+  marginTop: "0.5rem",
+})
+
 const Body = styled.div({
-  margin: "1rem",
+  margin: "0.5rem",
 })
 
 const Card = styled.div({
   display: "flex",
   justifyContent: "center",
+  flexDirection: "column",
+  width: "100%",
   boxShadow:
     "0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12)",
   "@media (max-width:960px)": {
-    flexDirection: "column",
     boxShadow: "none",
   },
 })
@@ -45,7 +53,7 @@ const CardImage = styled(Img)(({ selected }) => ({
 }))
 
 const CardContent = styled.div({
-  padding: "1rem",
+  padding: "0.5rem",
   flex: "1",
 })
 
@@ -93,6 +101,9 @@ const Post = ({ pageContext }) => {
         </div>
         <CardContent>
           <Header>{pageContext.post.shortDescription}</Header>
+          <PublishDate>
+            {new Date(pageContext.post.publishDate).toDateString()}
+          </PublishDate>
           <Body dangerouslySetInnerHTML={bodyContent} />
         </CardContent>
       </Card>

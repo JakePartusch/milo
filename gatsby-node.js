@@ -5,7 +5,7 @@ exports.createPages = ({ graphql, actions }) => {
   const blogPostTemplate = path.resolve(`src/templates/Post.js`)
   return graphql(`
     query AllPosts {
-      allContentfulPost {
+      allContentfulPost(sort: { fields: publishDate, order: DESC }) {
         edges {
           node {
             id

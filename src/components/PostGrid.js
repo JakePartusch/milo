@@ -23,7 +23,7 @@ const SquareImage = styled(Img)({
 const PostGrid = () => {
   const data = useStaticQuery(graphql`
     query Posts {
-      allContentfulPost {
+      allContentfulPost(sort: { fields: publishDate, order: DESC }) {
         edges {
           node {
             id
