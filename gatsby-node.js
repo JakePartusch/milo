@@ -1,6 +1,6 @@
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-  const blogPostTemplate = require.resolve(`./src/templates/post.js`)
+  const blogPostTemplate = require.resolve(`./src/templates/Post.js`)
   return graphql(`
     query AllPosts {
       allContentfulPost(sort: { fields: publishDate, order: DESC }) {
