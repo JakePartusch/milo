@@ -31,6 +31,7 @@ const PublishDate = styled.div({
 
 const Body = styled.div({
   margin: "0.5rem 1rem",
+  textAlign: "center",
 })
 
 const Card = styled.div({
