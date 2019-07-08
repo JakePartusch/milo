@@ -9,7 +9,13 @@ module.exports = {
     author: `@jakepartusch`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    {
+      resolve: "@jakepartusch/gatsby-theme-gallery-contentful",
+      options: {
+        contentfulSpaceId: `9ljeh5a9s52s`,
+        contentfulAccessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,19 +36,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `9ljeh5a9s52s`,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-sharp`,
-    {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        pathToConfigModule: `./src/utils/typography`,
       },
     },
     `gatsby-plugin-offline`,
