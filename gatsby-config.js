@@ -35,12 +35,6 @@ module.exports = {
         icon: `src/images/mp-logo-512.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `./src/utils/typography`,
-      },
-    },
     `gatsby-plugin-offline`,
   ],
 }
