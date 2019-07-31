@@ -10,7 +10,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@jakepartusch/gatsby-theme-contentful-gallery",
+      resolve: "gatsby-theme-contentful-gallery",
       options: {
         contentfulSpaceId: `9ljeh5a9s52s`,
         contentfulAccessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
