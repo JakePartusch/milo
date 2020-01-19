@@ -7,7 +7,7 @@ const auth = isBrowser
   ? new auth0.WebAuth({
       domain: "partusch-cms.auth0.com",
       clientID: "qK7k7mdkMwQLOiEIBGnjUOoj9xioVWbS",
-      redirectUri: "https://milo.partus.ch",
+      redirectUri: "https://milo.partus.ch/callback",
       responseType: "token id_token",
       scope: "openid profile email",
     })
