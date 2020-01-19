@@ -5,9 +5,9 @@ const isBrowser = typeof window !== "undefined"
 
 const auth = isBrowser
   ? new auth0.WebAuth({
-      domain: process.env.AUTH0_DOMAIN,
-      clientID: process.env.AUTH0_CLIENTID,
-      redirectUri: process.env.AUTH0_CALLBACK,
+      domain: "partusch-cms.auth0.com",
+      clientID: "qK7k7mdkMwQLOiEIBGnjUOoj9xioVWbS",
+      redirectUri: "https://milo.partus.ch",
       responseType: "token id_token",
       scope: "openid profile email",
     })
