@@ -7,6 +7,7 @@ module.exports = {
     title: `Milo Partusch`,
     description: `A personal gallery for Milo`,
     author: `@jakepartusch`,
+    siteUrl: `https://milo.partus.ch`,
   },
   plugins: [
     {
@@ -35,6 +36,7 @@ module.exports = {
         icon: `src/images/mp-logo-512.png`,
       },
     },
+    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-offline`,
   ],
 }
