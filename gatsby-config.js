@@ -35,6 +35,13 @@ module.exports = {
         icon: `src/images/mp-logo-512.png`,
       },
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://milo.partus.ch",
+        policy: [{ userAgent: "*", disallow: "/" }],
+      },
+    },
     `gatsby-plugin-offline`,
   ],
 }
