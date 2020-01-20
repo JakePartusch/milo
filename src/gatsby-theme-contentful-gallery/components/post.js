@@ -12,7 +12,7 @@ const Index = props => {
   }, [isLoggedIn, AuthService])
 
   if (!isLoggedIn) {
-    return <p>Redirecting to login...</p>
+    return <></>
   }
 
   return <Post {...props} />
