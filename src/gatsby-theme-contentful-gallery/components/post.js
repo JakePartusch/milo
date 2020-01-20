@@ -1,11 +1,17 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Post from "gatsby-theme-contentful-gallery/src/components/post"
-import { login, isAuthenticated, getProfile } from "../../utils/auth"
+import { AuthService, useAuth } from "gatsby-theme-auth0"
 
 const Index = props => {
-  const user = getProfile()
-  if (!isAuthenticated() || !user.email) {
-    login()
+  const { isLoggedIn, profile } = useAuth()
+
+  useEffect(() => {
+    if (!isLoggedIn) {
+      AuthService.login()
+    }
+  }, [isLoggedIn, profile, AuthService])
+
+  if (!isLoggedIn) {
     return <p>Redirecting to login...</p>
   }
 
