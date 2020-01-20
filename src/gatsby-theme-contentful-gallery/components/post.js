@@ -3,13 +3,13 @@ import Post from "gatsby-theme-contentful-gallery/src/components/post"
 import { AuthService, useAuth } from "gatsby-theme-auth0"
 
 const Index = props => {
-  const { isLoggedIn, profile } = useAuth()
+  const { isLoggedIn } = useAuth()
 
   useEffect(() => {
     if (!isLoggedIn) {
       AuthService.login()
     }
-  }, [isLoggedIn, profile, AuthService])
+  }, [isLoggedIn, AuthService])
 
   if (!isLoggedIn) {
     return <p>Redirecting to login...</p>
