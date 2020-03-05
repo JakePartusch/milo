@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#eee`,
         theme_color: `#eee`,
         display: `standalone`,
-        icon: `src/images/mp-logo-512.png`,
+        icon: `src/images/mp-logo-500.png`,
       },
     },
     {
